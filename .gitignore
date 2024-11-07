@@ -10,6 +10,10 @@
 !.yarn/releases
 !.yarn/versions
 
+# Ignore package-lock.json
+package-lock.json
+# Ignore package.json (if you need to ignore it)
+package.json
 # testing
 /coverage
 
@@ -18,6 +22,7 @@
 /out/
 
 # production
+dist/
 /build
 
 # misc
